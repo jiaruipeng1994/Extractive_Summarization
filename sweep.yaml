@@ -1,0 +1,20 @@
+program: main.py
+method: grid
+metric:
+  name: val_rouge
+  goal: maximize
+parameters:
+  max_epochs:
+    value: 5
+  max_pos:
+    value: 800
+  accumulate_grad_batches:
+    value: 2
+  val_check_interval:
+    value: 500
+  gpus:
+    value: 1
+  lr:
+    values: [1e-5, 3e-5, 5e-5, 7e-5]
+  warmup_steps:
+    values: [10000, 20000, 30000]

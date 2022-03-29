@@ -1,0 +1,83 @@
+.*
+!.gitignore
+!.vscode/
+*.~
+*.skim
+*.class
+*.py[co]
+*.pkl
+*.swp
+*.log
+*.DS_Store
+*.zip
+build/
+dist/
+logs/
+.venv/
+.idea/
+.tox/
+.coverage
+covhtml/
+coverage.xml
+nosetests.xml
+tmp*
+
+## for CDN
+cdnjs.cloudflare.com/
+https:/
+
+## for Python
+__pycache__
+checkpoint
+lightning_logs
+wandb
+
+## for: xelatex
+*.bbl
+*.blg
+*.pdf
+*.dvi
+*.aux
+*.log
+*.lot
+*.nav
+*.snm
+*.toc
+*.out
+*.bcf
+*.lof
+*.loc
+*.soc
+*.mintedcmd
+*.run.xml
+*.gz
+auto/
+*.fdb_latexmk
+*.fls
+
+## for acutex
+prv_*
+_region_*
+_minted-*
+
+## Node, Express, Scss, Jade, Pug, Hexo, Next
+.DS_Store
+Thumbs.db
+db.json
+*.log
+node_modules/
+bower_components/
+.deploy*/
+.sass-cache/
+bourbon/
+
+## for Emacs
+custom.el
+*.elc
+*Sass*
+\*Python\*
+*Coffee*
+
+## for org
+*.html
+*.odt

@@ -1,0 +1,9 @@
+datasets==1.17.0
+line_profiler==3.4.0
+nltk==3.4
+numpy==1.20.3
+pytorch_lightning==1.5.8
+rouge_score==0.0.4
+torch==1.10.2
+transformers==4.15.0
+wandb==0.12.10
